@@ -15,7 +15,7 @@ if 5 > 2 and 5 > 3:
    print("Cinco é maior que dois") 
    print("Cinco é maior que três")
 
-
+Deve haver um alinhamento na indentação, o mesmo número de espaços usados deve permanecer até o fim do bloco.
 
 Comentários: 
 É possível criar comentários no código através do caractere "#". 
