@@ -1,0 +1,36 @@
+Booleanos
+
+Os booleanos representam um desses dois valores: 
+true ou false. 
+
+Quando você faz uma afirmação em python, ele te retorna uma dessas duas respostas: 
+se verdadeiro, retorna true, se falso, retorna false. 
+Ex: 
+print (10 > 9) retorna true
+print (10 == 9) retorna false 
+print (10 < 9) retorna false
+
+Ao usar uma estrutura condicional, true e false determinam quais códigos são executados. 
+
+A função bool () retorna true ou false baseado na avaliação de um valor. 
+Regra: 
+Todos os strings são True, exceto os vazios.
+Todos os números são True, exceto 0. 
+Qualquer list, tuple, set e dictionary são True, exceto os vazios. 
+Ex: 
+print(bool("abc")) retorna True 
+print(bool ("")) retorna False, repare que print(bool(" ")) retorna True pois espaços são caracteres.
+
+bool() falsos: 
+(), {}, "", 0, None e False (Letra maiúscula diferenciam, usar none ou false com letra minúscula é 
+Todos esses retornam false: 
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+
+
+Algumas funções podem retornar valores booleanos, como a função isinstance() e a _len_ se ela retornar 0.
