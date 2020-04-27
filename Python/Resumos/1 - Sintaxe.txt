@@ -21,3 +21,15 @@ Comentários:
 É possível criar comentários no código através do caractere "#". 
 Do "#" até o final da linha, é considerado comentário e não é interpretado pela IDE.
 Colocar um # na frente de uma linha de código impede o interpretador de executa-la.
+Também é póssível criar um comentário de multiplas linhas utilizando """
+Exemplo: 
+"""
+Esse 
+é
+um 
+Comentário
+de
+Multiplas 
+Linhas 
+"""
+Você pode fazer isso desde que o texto entre as aspas não estejam associadas com nenhuma variável.
