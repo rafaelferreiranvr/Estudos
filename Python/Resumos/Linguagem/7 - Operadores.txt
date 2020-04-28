@@ -1,0 +1,144 @@
+Operação                                Sinal 
+
+Operadores Aritméticos:
+Adição                                         + 
+Subtração                                   - 
+Multiplicação                             * 
+Divisão                                        / 
+Resto da Divisão (MOD)         %  
+Exponenciação                        ** 
+Divisão Inteira                          // 
+
+
+
+Operadores comparativos: 
+Menor que                                <
+Maior que                                  >
+Menor ou igual                         <=
+Maior ou igual                          >=
+Recebe                                       =
+Igual                                           ==
+Diferente                               <> ou !=
+
+
+
+Operadores lógicos: 
+e                                                and 
+ou                                               or 
+não                                            not
+
+
+
+Operadores de comparação
+Igual                                         x == y
+Diferente                                 x != y
+Maior que                                x > y
+Menor que                              x < y
+Maior ou igual                        x >= y
+Menor ou igual                      x <= y
+
+
+
+Operadores de atribuição
+Os operadores de atribuição seguem a seguinte regra: 
+x o= b é o mesmo que x = x o 5
+Ou seja, x += 5 é o mesmo que x = x + 5
+Casos especiais: 
+x >>= 5 é o mesmo que x = x >> 5
+x <<= 5 é o mesmo que x = x << 5
+
+
+
+Operadores Lógicos 
+and (Retorna true se as duas condições forem verdadeiras)
+Ex: sendo x=3, x<5 and x<7 retorna true
+
+or (Retorna true se uma das condições forem verdadeiras) 
+Ex: sendo x=3, x<4 or x<2 retorna true 
+
+nor (Reverte o resultado, retorna false se o resultado for true) 
+Ex: sendo x=3, not(x<5 and x<7) retorna false
+
+
+
+Operadores de Identidade 
+is (Retorna true se ambas as variáveis forem o mesmo objeto)
+Ex: x is y, retorna true se x==y
+
+is not (Retorna true se ambas as variáveis forem o mesmo objeto)
+Ex: x is not y, retorna true se x!=y 
+
+
+
+Operadores de pertencimento 
+in (Retorna True se a sequência com o valor especificado estiver presente no objeto) 
+Ex: x in y, retorna true se x estiver presente em y
+
+not in (Retorna True se a sequência com o valor especificado não estiver presente no objeto)
+Ex: x not in y, retorna true se x não estiver presente em y
+
+
+
+Operadores bit a bit 
+Esses operadores são usados para comparar números binários um a um 
+Binários são compostos de 0 e 1
+
+&
+Nome: AND
+Funcionamento: Colocando um número  em binário embaixo do outro e comparando bit a bit, define cada bit para 1 se os dois bits forem um, se não forem, define para 0. 
+Ex: 
+A&B 
+A = 10      => 1010 (Binário) 
+B = 7        =>  0111 (Binário) 
+A&B = 2   => 0010 (Binário)
+
+
+| 
+Nome: OR
+Funcionamento: Colocando um número  em binário embaixo do outro e comparando bit a bit, define cada bit para 1 se um dos dois for 1, se nenhum for, define para 0. 
+Ex: 
+A|B
+A = 10         => 1010 (Binário) 
+B = 7           => 0111 (Binário)
+A|B = 15    => 1111 (Binário)
+
+
+^
+Nome: XOR
+Funcionamento: Colocando um número  em binário embaixo do outro e comparando bit a bit, define cada bit para 1 se APENAS UM dos bits forem 1, se OS DOIS bits forem 0 ou 1, então define para 0. 
+Ex: 
+A^B
+A = 10        => 1010 (Binário) 
+B = 7          => 0111 (Binário) 
+A^B = 13   => 1101 (Binário) 
+
+
+~
+Nome: NOT ou complemento
+Funcionamento: O complemento de um número A é igual a -(A+1).
+~A
+A = 10
+~A = -11
+
+
+<<
+Nome: Shift para a direita 
+Funcionamento: Desloca bits para a direita, e como consequência, cria novos zeros á direita conforme o especificado (Número inteiro e positivo) 
+Ex: 
+A=10 (1010) 
+A<<1 = 20 (10100) 
+A<<2 = 40 (101000) 
+A<<3 = 80 (1010000)
+
+
+>> 
+Nome: Shift para a esquerda 
+Funcionamento: Desloca bits para a esquerda, e como consequência, apaga os bits das casas á direita conforme o especificado (Número inteiro e positivo)
+Se o número especificado for maior que o número de bits, novos zeros são criados á esquerda, entretanto isso não altera o resultado final. 
+Ex: 
+A = 10 (1010)
+A>>1 = 5 (101) 
+A>>2 = 2 (10) 
+A>>3 = 1 (1) 
+A>>4 = 0 (0)
+A>>5 = 0 (00)
