@@ -88,5 +88,5 @@ for x in list2:
 Assim como o metodo extend() 
 list1.extend(list2) 
 
-É possível criar uma lista com a função list() 
+É possível criar uma lista com o construtor list() 
 A = list(("elemento1", "elemento2", "elemento3"))

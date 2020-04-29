@@ -54,5 +54,5 @@ del A
 tuple3 = tuple1 + tuple2 
 A ordem é respeitada. 
 
-Também é possível criar uma tuple usando o metodo tuple(): 
+Também é possível criar uma tuple usando o construtor tuple(): 
 A = tuple(("elemento1", "elemento2", "elemento3"))
