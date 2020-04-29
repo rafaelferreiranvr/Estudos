@@ -1,1 +1,119 @@
-...
+Array: Dictionary
+Não ordenado, mutável e indexado. É escrito com chaves.
+Funcionamento: O dictionary associa uma palavra-chave a um valor:
+A = {
+   "chave1": "Valor1"
+   "chave2": "Valor2" 
+   "chave3": "Valor3"
+}
+
+Os itens do dictionary são acessados por meio de suas chaves:
+print(A["chave2"]) retorna Valor2
+O metodo get() retorna o mesmo resultado. 
+print(A.get("Valor2"))
+
+A alteração de um valor pode ser feita da seguinte forma: 
+Ex
+A["Valor2"] = "Valor3"
+
+É possível imprimir na tela todos os elementos desse set usando o loop (Estrutura repetitiva) "for".
+Para imprimir todas as chaves do dictionary: 
+for x in A
+   print(x)
+
+Para imprimir todos os valores do dictionary: 
+for x in A 
+   print(A[x])
+
+A função values pode ser usada também: 
+for x in A.values():
+   print(x)
+
+A função items() é usada para imprimir chaves e valores:
+for x, y in A.items(): 
+   print (x,y)
+
+
+Para determinar se uma chave especificada pertence a tal dictionary, usa-se a palavra-chave "in"
+if "chave2" in A: 
+   print("Sim, chave2 está em A") 
+
+Para determinar a quantidade de itens(pares chave-valor) do dictionary, use a função len(): 
+print (len(A))
+
+
+Itens são adicionados dessa forma: 
+A["chave4"] = "valor4"
+
+Itens são removidos com os seguintes métodos: 
+
+pop () remove o item com a chave especificada
+Ex: 
+A.pop("chave4") 
+
+popitem () remove o item inserido por ultimo no disctionary (Em versões anteriores á 3.7, um ítem aleatório é removido) 
+Ex:
+A.popitem() 
+
+A palavra chave del remove o item com a chave especificada: 
+del A["chave4"]
+Ou deletar o dictionary inteiro: 
+del A
+
+clear() esvazia o dictionary: 
+A.clear() 
+
+Não é possível copiar um dictionary no outro assim:
+dictionary1 = dictionary2 
+Porque se fizer isso, dictionary2 vai apenas ser uma referência ao dictionary1. Todas as mudanças feitas em dictionary1 serão feitas em dictionary2. 
+
+Para fazer uma cópia real e independente, use o metodo copy() 
+Ex: 
+dictionary2 = dictionary1.copy() 
+
+Ou com o método dict()
+Ex: 
+dictionary2 = dict(dictionary1) 
+
+
+É possível que um dicionário contenha multiplos dicionários dentro de si 
+Ex:
+albuns = {
+  "album1" : {
+    "nome" : "Primeiro album",
+    "ano" : 2010
+  },
+  "album2" : {
+    "nome" : "Segundo album",
+    "ano" : 2011
+  },
+  "album3" : {
+    "nome" : "Terceiro album",
+    "ano" : 2012
+  }
+}
+
+É possível criar um dicionário que contenha três dicionários já existentes: 
+ album1 = {
+    "nome" : "Primeiro album",
+    "ano" : 2010
+  }
+
+ album2 = {
+    "nome" : "Segundo album",
+    "ano" : 2011
+  }
+
+ album1 = {
+    "nome" : "Terceiro album",
+    "ano" : 2011
+  }
+
+albums = {
+   "album1" : album1
+   "album2": album2
+   "album3": album3
+}
+
+É possível criar um dicionário usando o construtor dict()
+A = dict(chave1 = "valor1", chave2 = "valor2, "chave3="valor3")
