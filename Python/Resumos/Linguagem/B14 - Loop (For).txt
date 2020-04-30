@@ -1,0 +1,89 @@
+Loop: For
+
+É usado para repetir um bloco de comandos um determinado número de vezes. 
+Muito útil para varrer arrays e imprimir seus elementos.
+Ex: 
+A = ["e1", "e2", "e3"]
+for x in A:
+   print (x)
+Cada elemento é retornado em cada linha: 
+e1 
+e2
+e3 
+
+String também pode ser iterado: 
+for x in "banana": 
+   print(x) 
+
+Retorno: 
+b
+a
+n
+a
+n
+a
+
+O comando break pode ser usado para finalizar o loop antes que o loop for tenha varrido todos os itens: 
+for x in A:
+   print (x) 
+   if x == "e2"
+      break
+A posição do break afetará os resultados, portanto, é interessante fazer testes. 
+Se o break está antes do print, o elemento não é impresso. 
+
+
+
+O comando continue é usado para parar a iteração atual e pular para a próxima: 
+for x in A: 
+   if x == "e2"
+      continue
+    print (x) 
+Como a iteração é terminada antes do print, o elemento que está no if não será impresso. 
+
+
+
+A função range() itera os elementos de um array em um intervalo especificado e incrementa em 1 por padrão. 
+Ex: 
+for x in range (6)
+   print(x) 
+Esse código imprime os valores dos índices de 0 a 5, portanto, 6, que é o valor de fechamento, não é incluído. 
+
+É possível iterar definindo um índice inicial e um final da seguinte forma: 
+for x in range (2, 6): 
+   print(x)
+Esse código imprime os valores dos índices de 2 a 5, incluindo o índice inicial e excluindo o final. 
+
+O valor incrementado a cada loop por padrão é 1, mas isso pode ser especificado adicionando um terceiro parametro: 
+for x in range (2, 10, 2) 
+   print(x) 
+Esse código retorna os valores dos seguintes índices: 
+2, 4, 6, 8
+
+A palavra-chave else define um bloco de código que deve ser executado uma vez após a finalização do loop for: 
+for x in range(6): 
+   print(x) 
+else: 
+   print("Acabou") 
+
+É possível encadear um loop dentro do outro: 
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+Isso retorna: 
+red apple
+red banana
+red cherry
+big apple
+big banana
+big cherry
+tasty apple
+tasty banana
+tasty cherry
+
+O comando pass é usado para impedir que for retorne um erro se ele estiver vazio: 
+for x in A
+   pass

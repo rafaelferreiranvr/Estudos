@@ -1,0 +1,43 @@
+Loop: While 
+
+
+Com o loop while é possível executar um certo bloco de comandos enquanto uma certa condição for verdadeira. 
+Esse comando precisa que variáveis relevantes seham indexadas de antemão
+
+Ex: 
+i = 1
+while i < 6: 
+    print(i)
+    i += 1
+Lembre-se de incrementar i, senão ele continuará se repetindo infinitamente, pois, se não for incrementado, a condição permanece verdadeira. 
+
+É possível finalizar o loop mesmo se as condições ainda forem válidas.
+Para tal, usa-se o comando break:
+while i < 6: 
+    print(i)
+    if i == 3
+        break
+    i += 1
+
+O comando continue para a execução da repetição atual e parte para a próxima
+Ex: 
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+
+Aqui o loop se repete quando i é 0, 1, 2..., mas quando chega no 3, o if entra em ação e essa repetição é encerrada antes do comando print. 
+Então a saída é a seguinte: 
+0, 1, 2, 4, 5,6
+Repare que o 3 não aparece aqui, pois a repetição que imprimiria o 3 foi interrompida antes da imprerssão. 
+
+O comando else faz com que, quando a condição imposta no while não for mais verdadeira, seja executado um outro bloco, apenas uma vez.
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i não é mais menor que 6")

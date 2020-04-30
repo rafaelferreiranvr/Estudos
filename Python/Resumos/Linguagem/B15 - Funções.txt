@@ -1,0 +1,73 @@
+Funções: 
+Uma função é um bloco de código predeterminado que é executado quando é chamado. 
+
+Uma função é definida pela palavra-chave def
+Ex: 
+def minha_funcao(): 
+   print("Hello") 
+
+Uma função é chamada da seguinte forma: 
+minha_funcao()
+
+
+Funções podem ser programadas para ler informações previstas chamadas de argumentos ou parâmetros. 
+Ex: 
+def minhafuncao(argumento1):
+   print (argumento1) 
+
+Uma função no python pode ser comparada a uma função matemática, em que o f(x) é o nome da função e a lei de formação é o bloco de código que a define. 
+Ex: 
+F(x) = x + 2 é traduzida para: 
+
+def f(x):
+   print(x + 2)
+
+f(2) retorna 4
+
+F(x,y) = x^2 + x^2 é traduzida para: 
+
+def f(x,y): 
+   print(x**2 + y**2)
+
+f(3,4) retorna 25 
+
+A quantidade de parametros de uma função deve ser respeitada ao chama-la, se uma função espera 2 argumentos, dois valores devem ser fornecidos a ela, nem mais, nem menos. A ordem também é respectiva. 
+
+Se você quiser que sejam inseridos um número indeterminado de argumentos, você pode colocar um * antes do nome do parâmetro, dessa forma, a função recebe uma tuple de valores. 
+
+É possível que você forneça palavras-chave a uma função, assim, a ordem passa a não importar, pois está tudo especificado. 
+Ex: 
+def f(x,y): 
+   print(x**2 + y**2):
+
+f(x=2, y=3)
+
+Pode-se atribuir valores por padrão caso um argumento não seja especificado: 
+def minha_funcao(x=2, y=3):
+   print(x**2 + y**2) 
+Aqui eu defino que o valor padrão de x é 2 e o valor padrão de y é 3. 
+
+
+É possível definir uma lista como argumento:
+ex:
+def minha_funcao(i): 
+   for x in i: 
+      print(x**2)
+
+impares=[1, 3, 5, 7, 9]
+
+minha_funcao(impares)
+
+Para fazer com que uma função retorne um valor, use o comando return: 
+def minha_funcao(x): 
+   return 5*x 
+
+print(minha_funcao(3)) retorna 15 
+
+Definições de uma função não podem estar vazios, entretanto, caso esteja, use o comando pass para evitar um erro. 
+
+def minha_funcao() 
+   pass
+
+É possível que uma função chame a si mesma. Esse fenomeno é chamado de recursão.
+Acontece quando a função é citada em um bloco de código dentro dela mesma.
