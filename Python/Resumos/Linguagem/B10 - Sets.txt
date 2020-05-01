@@ -1,4 +1,4 @@
-Array: Sets 
+Coleções: Sets 
 Não ordenado, não indexado, pode ser incrementado mas não alterado. É escrito com chaves. 
 Uso: 
 A = {"elemento1", "elemento2", elemento3"} 

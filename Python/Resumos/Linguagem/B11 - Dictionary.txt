@@ -1,4 +1,4 @@
-Array: Dictionary
+Coleções: Dictionary
 Não ordenado, mutável e indexado. É escrito com chaves.
 Funcionamento: O dictionary associa uma palavra-chave a um valor:
 A = {

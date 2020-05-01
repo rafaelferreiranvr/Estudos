@@ -1,0 +1,58 @@
+Coleções: Tuple 
+
+Ordenado, indexado e imutável. É escrito com parenteses. 
+Uso: 
+A = ("elemento1", "elemento2", "elemento3") 
+print(A) retorna ('elemento1', 'elemento2', 'elemento3') 
+
+Com isso é criado o seguinte array: 
+A[0]= "elemento1"
+A[1]= "elemento2" 
+A[2]= "elemento3" 
+A[-1]= "elemento3" 
+A[-2]= "elemento2"
+
+Esses itens podem ser acessados da seguinte forma
+Ex: 
+print(A[0]) retorna "elemento1"
+print(A[1:]) retorna "elemento2" pra frente, ou seja, "elemento2" e "elemento3"
+print(A[0:1]) retorna "elemento1" 
+print(A[0:-1]) retorna ["elemento1", "elemento2"]
+
+Note que o fechamento do intervalo não é incluído. 
+
+
+Quando é uma tuple é criada, você não pode alterar os itens do array, entretanto, isso é possível se você converter a tuple para list e depois converter denovo para tuple. 
+Ex: 
+A = ("elemento1", "elemento2", "elemento3")
+B = list(A) 
+B(2) = "elementonovo"
+A = tuple(B)
+
+É possível imprimir na tela todos os elementos dessa tuple usando o loop (Estrutura repetitiva) "for":
+for x in A: 
+   print(x)
+
+Para determinar se um ítem especificado pertence a tal tuple, usa-se a palavra-chave "in"
+A = ("elemento1", "elemento2", "elemento3") 
+if "elemento2" in A: 
+   print("Sim, elemento2 está em A") 
+
+Para determinar a quantidade de elementos da tuple, use a função len(): 
+print(len(A))
+
+Não é possível adicionar novos itens a uma tuple.
+
+Pode-se criar uma tuple de um único item, desde que tenha uma vírgula após o item:
+A = ("elemento",) 
+Se não tiver vírgula, não é considerado tuple. 
+
+Você não pode remover itens de uma tuple, mas você pode apaga-la completamente usando a palavra-chave del:
+del A
+
+É possível juntar duas tuples da seguinte forma: 
+tuple3 = tuple1 + tuple2 
+A ordem é respeitada. 
+
+Também é possível criar uma tuple usando o construtor tuple(): 
+A = tuple(("elemento1", "elemento2", "elemento3"))
