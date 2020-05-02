@@ -1,0 +1,32 @@
+Escopo 
+Uma variável só está disponível dentro da região em que ela foi criada, isso é chamado de escopo. 
+Uma variável criada dentro de uma função só está disponível dentro dela. 
+Ex:
+def minhafuncao() 
+   x = 300
+   print(x) 
+
+minhafuncao() 
+
+
+Uma variável criada dentro de uma função não está disponível para coisas fora dela, entretanto está disponível para qualquer função dentro da função onde a variável foi criada. 
+ex: 
+def minhafuncao():
+   x = 300 
+   def funcaointerna(): 
+      print(x) 
+   funcaointerna() 
+
+minhafuncao()
+
+print(x) 
+
+Se uma variável x for criada fora de uma função, e então ela é criada denovo dentro de uma função, python vai trata-las como duas variáveis diferentes. 
+
+Se você usar a palavra-chave global, a variável criada dentro da função poderá ser usada em qualquer lugar: 
+def minhafuncao():
+   global x 
+   x = 300
+   print(x) 
+
+minhafuncao() 
