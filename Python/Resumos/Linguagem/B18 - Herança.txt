@@ -1,0 +1,61 @@
+Herança 
+
+Herança permite que uma classe definida herde todos os métodos e propriedades de uma outra classe. 
+Há 2 tipos de classe no processo de herança:
+Classe pai é a classe que está sendo herdada, classe filha é a que herda. 
+
+Classe pai é criada como qualquer outra classe
+Aqui temos uma classe Pessoa com as propriedades nome e sobrenome, e um método que imprime o nome: 
+class Pessoa: 
+   def _init_(self, nome, sobrenome) 
+      self.nome = nome 
+      self.sobrenome = sobrenome 
+   
+   def impressao (self) 
+      print(self.nome, self.sobrenome) 
+
+Classe filho é criada usando a classe pai: 
+class Estudante(Pessoas):
+pass
+
+A classe Estudante herda as propriedades e métodos da classe Pessoa. 
+Podemos usar a classe para criar um objeto, e então executar o metodo impressao: 
+x = Estudante ("Mike", "Olsen") 
+x.impressao()
+
+Se você adicionar a função _init_(), a classe filha não vai mais herdar a função _init_ da função pai, pois essa nova _init_() substitui a _init_() da função pai. 
+Ex: 
+
+class Estudante(Pessoa):
+   def _init_(self, nome, sobrenome) 
+      #adicione propriedades e etc. 
+
+Para manter a classe filha herdando a _init_() da classe pai, coloque um chamado á _init_() da classe pai. 
+Ex: 
+class Estudante(Pessoa):
+   def _init_(self, nome, sobrenome):
+      Pessoa._init_(self, nome, sobrenome)
+
+A função super() faz com que a classe filha herde tudo da classe pai: 
+class estudante(Pessoa): 
+   def_init_(self, nome, sobrenome):
+      super()._init_(nome, sobrenome)
+
+
+Adicionando propriedades á classe estudante: 
+class Estudante(Pessoa):
+  def init(self, nome, sobrenome, ano):
+    super().init(nome, sobrenome)
+    self.anodegraduacao = ano
+
+Agora podemos criar um objeto com essas 3 variáveis: 
+x = Estudante ("Mike", "Olsen", 2019)
+
+Adicionando métodos á classe: 
+class Estudante(Pessoa): 
+   def _init_(self, nome, sobrenome, ano) 
+      super()._init_(nome, sobrenome) 
+      self.anodegraduacao = ano 
+   
+   def saudacao(self): 
+      print ("Bem-vindo", self.nome, self.sobrenome, " á sua turma de ", self.anodegraduacao)
