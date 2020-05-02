@@ -1,0 +1,92 @@
+Iteradores
+Um iterador é um objeto que contém um número contável de valores. Iterar significa passar por todos os valores de um iterável. 
+Um iterável é um objeto que pode ser varrido pelo iterador, como, por exemplo, string, list, tuple, set e dictionary.
+Todos esses objetos possuem um metodo iter() que é usado para permitir que o objeto seja iterado. 
+Ex: 
+tuple = ("elemento1", "elemento2", "elemento3") 
+meuiterador = iter(tuple) 
+
+print(next(meuiterador)) 
+print(next(meuiterador))
+print(next(meuiterador))
+Retorno: 
+elemento1
+elemento2
+elemento3
+
+Strings também são iteráveis: 
+string = "banana" 
+meuiterador = iter(string) 
+
+print(next(meuiterador))
+print(next(meuiterador))
+print(next(meuiterador))
+print(next(meuiterador))
+print(next(meuiterador))
+print(next(meuiterador))
+Retorno: 
+b 
+a
+n
+a
+n
+a
+
+O loop for pode ser usado para iterar por um objeto iterável: 
+Ex1: Coleções
+tuple = ("elemento1", "elemento2", "elemento3") 
+
+for x in tuple: 
+   print(x) 
+
+Ex2: String 
+string = "banana"
+
+for x in string
+   print(x) 
+
+O loop for na verdade cria um objeto iterador e executa o método next() para cada loop.
+
+
+Para criar um objeto ou classe como iterador, você precisa implementar os metodos _iter_() e _proximo_() para o seu objeto.
+Ex: Criar um iterador que retorna números começando por um e a cada sequência ele aumenta em um, retornando 1, 2, 3, 4, 5 etc.
+class numeros: 
+   def _iter_(self): 
+      self.a = 1
+      return self
+
+    def _next_(self): 
+       x = self.a 
+       self.a += 1
+       return x 
+
+classe = numeros() 
+iterador = iter(classe) 
+
+print(next(iterador))
+print(next(iterador))
+print(next(iterador))
+print(next(iterador))
+print(next(iterador))
+
+
+Se você estivesse usando um loop for, esse exemplo continuaria pra sempre, paara evitar isso, podemos usar o comando Stopiteration
+ex: 
+class numeros:
+  def iter(self):
+    self.a = 1
+    return self
+
+  def next(self):
+    if self.a <= 20:
+      x = self.a
+      self.a += 1
+      return x
+    else:
+      raise StopIteration
+
+classe = Numeros()
+iterador = iter(myclass)
+
+for x in iterador:
+  print(x)
