@@ -1,0 +1,276 @@
+/* Geral */ 
+html {
+    min-width: 480px;
+}
+body {
+    width: 100%;
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+
+
+
+/*Barra superior*/
+#nav {
+    height: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+#navlinks {
+    float: right;
+}
+
+.navlinkconteiner {
+    float: left;
+    padding-left: 15px;
+}
+
+#nav a {
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    line-height: 30px;
+}
+
+#nav a:hover {
+    opacity: .85;
+}
+
+#apps {
+    width: 16px;
+    height: 16px;
+    background-image: url(icons/icons.png);
+    background-position: -139px -45px;
+    margin: 8px;
+    opacity: .55;
+    cursor: pointer;
+}
+
+#apps:hover {
+    opacity: 1;
+}
+
+#appconteiner {
+    width: 32px;
+    height: 32px;
+}
+
+#login {
+    color: white;
+    background-color: #4285f4;
+    font-weight: bold;
+    line-height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4285f4;
+    border-radius: 2px;
+    padding: 0px 12px;
+}
+
+
+
+
+/* Meio */ 
+#meio {
+    text-align: center;
+}
+
+#conteinerlogo {
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 30px;
+    transition: 0.2s;
+}
+
+#logo {
+    width: 272px;
+    transition: 0.2s;
+}
+
+@media screen and (max-height: 540px) {
+    #logo {
+        width: 105px;
+    }
+
+    #conteinerlogo {
+        padding-top: 50px;
+    }
+}
+
+#pesquisa {
+    display: inline-block;
+}
+
+#conteinerbarra {
+    display: inline-block;
+    text-align: center;
+}
+
+#barra {
+    min-width: 280px;
+    width: 447px;
+    height: 44px;
+    padding-right: 88px;
+    padding-left: 47px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 24px;
+    border-color: rgb(223,225,229);
+    outline: none;
+} 
+
+#barra:hover, #barra:focus-within   {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#icones {
+    position: absolute;
+    width: 584px;
+    min-width: 420px;
+    height: 48px;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+#acessibilidade {
+    float: right;
+}
+
+.icone {
+    float: left;
+    line-height: 48px;
+    pointer-events: all;
+}
+
+#search {
+    padding-top: 12px;
+    padding-left: 15px;
+    width: 20px;
+}
+
+#key {
+    width: 24px;
+    height: 24px;
+    padding-right: 20px;
+}
+
+#mic {
+    padding-right: 18px;
+    padding-top: 5px;
+}
+
+#botoes {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.botao {
+    background-color: #F8F9FA;
+    color: #3c4043;
+    padding: 0 16px;
+    line-height: 34px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.botao:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+@media screen and (max-width: 584px) {
+    #barra, #icones {
+        width: 70%;
+    }
+
+    #conteinerbarra {
+        text-align: start;
+    }
+}
+
+
+/* Rodapé */ 
+#rodape {
+    display: inline-block;
+    width: 100%;
+    min-width: 480px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(242, 242, 242);
+}
+
+.fileira {
+    padding-left: 30px;
+    padding-right: 3px;
+    line-height: 40px;
+    border: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: rgb(218,220,224);
+}
+
+#idioma {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+
+.footlinkconteiner {
+    float: left;
+    padding-right: 27px;
+    color: #70757a;
+    font-size: 14px;
+}
+
+#footlinks1 {
+    float: right;
+}
+
+#footlinks2 {
+    float: left;
+    margin: auto;
+}
+
+@media screen and (max-width: 790px) {
+    #fileira2 {
+        text-align: center;
+    }
+
+    #footlinks1, #footlinks2 {
+        float: none;
+        display: inline-block;
+    }
+
+    #fileira {
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-height: 420px) {
+    #rodape {
+        position: relative;
+        margin-top: 30px;
+    }
+}
