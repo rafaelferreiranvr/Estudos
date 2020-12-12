@@ -45,13 +45,13 @@ ul {
 #navegacao {
     background-color: white;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
 }
 
 #fileiracima {
     text-align: center;
-    width: 100vw;
+    width: 100%;
 }
 
 #fileiracima #conteudo {
@@ -134,7 +134,7 @@ ul {
 }
 
 #fileirabaixo {
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -143,6 +143,7 @@ ul {
     font-weight: bold;
     display: inline-block;
     text-align: start;
+    max-width: 492px;
 }
 
 #parceiros {
@@ -278,6 +279,11 @@ ul {
     font-family: "Deezer-regular";
     src: url(fonts/Deezer-regular.woff2);
 }
+@media screen and (min-width: 1560px) {
+    #meio {
+        text-align: center;
+    }
+}
 
 
 
@@ -294,6 +300,7 @@ ul {
     background-repeat: no-repeat;
     background-position: 110% -60px;
     font-family: "Deezer-bold";
+    
 }
 #areatexto {
     margin: 0 124px;
@@ -358,6 +365,30 @@ ul {
     margin-left: 10px;
     padding: 16px 62px;
     border-width: 2px;
+}
+
+@media screen and (min-width: 1560px) {
+
+    #banner {
+        text-align: center;
+        height: 370px;
+        background-position: 92% -60px;
+    }
+
+    #areatexto {
+        width: 1110px;
+        text-align: start;
+        display: inline-block;
+    }
+
+    #pausa1 {
+        display: none;
+    }
+
+    #conteinertitulo1, #conteinertextorosa {
+        width: 570px;
+    }
+    
 }
 
 @media screen and (max-width: 1160px) {
@@ -473,6 +504,7 @@ ul {
     background-image: url(imagens/phone.jpg);
     background-repeat: no-repeat;
     background-position: 120px 95px;
+    max-width: 1325px;
 }
 
 #porquedeezer #conteudo {
@@ -482,6 +514,7 @@ ul {
     margin-right: 120px;
     margin-top: 65px;
     font-size: 16px;
+    text-align: start;
 }
 
 #porque {
@@ -508,6 +541,36 @@ ul {
 .framel {
     float: left;
 }
+
+
+
+@media screen and (min-width: 1560px) {
+    #porquedeezer {
+        padding-bottom: 250px;
+    }
+
+    #porquedeezer #conteudo {
+        width: 730px;
+        margin-right: 100px;
+        margin-top: 70px;
+        line-height: 22px;
+    }
+
+    #frames div {
+        width: 332px;
+        margin-bottom: 20px;
+    }
+
+    #frames div h2 {
+        line-height: 30px;
+    }
+
+    .framel {
+        float: none;
+    }
+
+}
+
 
 @media screen and (max-width: 1160px) {
 
@@ -934,6 +997,7 @@ ul {
     border-color:rgb(50, 50, 61);
     color: rgb(50, 50, 61);
     font-weight: bold;
+    background-color: #ffffff;
 }
 
 #pacotes {
