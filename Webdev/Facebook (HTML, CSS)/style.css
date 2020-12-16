@@ -27,7 +27,7 @@ body {
 
 #banner {
     height: 314px;
-    width: 548px;
+    width: 580px;
     font-size: 28px;
     display: inline-block;
     position: relative;
@@ -50,6 +50,10 @@ body {
     line-height: 32px;
 }
 
+#pausamenor {
+    display: none;
+}
+
 @media screen and (max-width: 1078px) {
 
     #meio .conteudo {
@@ -66,6 +70,51 @@ body {
     }
 }
 
+@media screen and (max-width: 900px) {
+    #meio {
+        padding-top: 0;
+    }
+    #meio .conteudo {
+       text-align: center; 
+    }
+
+    #conteinerlogo {
+        display: block;
+        padding: 0;
+        margin-bottom: -10px;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
+    #pausa {
+        display: none;
+    }
+
+    #pausamenor {
+        display: inherit;
+    }
+
+    #banner {
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    #texto {
+        display: inline-block;
+        width: 400px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #texto {
+        display: none;
+    }
+}
 
 /* Janela de Login */
 
@@ -190,7 +239,51 @@ body {
     font-family: inherit;
 }
 
+@media screen and (max-width: 900px) {
+    #login {
+        display: inline-block;
+        float: none;
+        height: auto;
+    }
+}
 
+@media screen and (max-width: 480px) {
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #login, #meio .conteudo, #meio {
+        width: 100%;
+    }
+
+    #login #janela {
+        width: 100%;
+        box-shadow: none;
+        text-align: center;
+    } 
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+    #entrar {
+        width: 91%;
+    }
+
+    #campos {
+        width: 91%;
+    }
+
+    .conteiner {
+        width: 100%;
+    }
+
+    #email, #senha {
+        width: calc(100% - 32px);
+    }
+}
 
 /*Rodapé*/
 
@@ -307,5 +400,20 @@ body {
 @media screen and (max-width: 1078px) {
     #rodape ,conteudo {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #rodape, .conteudo {
+        display: none;
+    }
+
+    #meio {
+        padding-bottom: 0px;
+    }
+
+    #login {
+        padding-bottom: 0;
+        margin-top: 20px;
     }
 }
