@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercícios\W3 Resource\Basic\1.cpp">
+    <ClCompile Include="Exercícios\Variáveis\10 - two_int_difference.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
