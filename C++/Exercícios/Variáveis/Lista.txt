@@ -1,0 +1,30 @@
+1 - Declare two integer variables, assign values to them, and output their sum.
+2 - Declare a double variable, assign it a value, and output the value.
+3 - Declare a char variable and assign it a letter, then output the letter.
+4 - Declare a boolean variable, assign it a value, and output the value.
+5 - Declare an integer variable and assign it the value of the result of 5 * 7. Then output the value.
+6 - Declare two integer variables, assign values to them, and output their product.
+7 - Declare a string variable and assign it a name, then output the name.
+8 - Declare a float variable and assign it a decimal value, then output the value.
+9 - Declare a constant integer variable with the value of 10, then output the value.
+10 - Declare two integer variables, assign values to them, and output their difference.
+11 - Write a program that prompts the user to enter two integers and outputs their average.
+12 - Declare an integer variable and prompt the user to enter a value for it. Then, output whether the value is even or odd.
+13 - Write a program that prompts the user to enter two double values, calculates their average, and outputs the result rounded to two decimal places.
+14 - Declare an integer variable and prompt the user to enter a value for it. Then, output whether the value is positive, negative, or zero.
+15 - Write a program that prompts the user to enter a temperature in Celsius and outputs the temperature in Fahrenheit.
+16 - Declare two integer variables and prompt the user to enter values for them. Then, output their sum, difference, product, and quotient.
+17 - Write a program that prompts the user to enter their age and their birth year. Then, output their age in months, weeks, and days.
+18 - Declare a constant double variable representing the speed of light in meters per second. Then, prompt the user to enter a distance in meters and output the time it would take for light to travel that distance.
+19 - Write a program that prompts the user to enter the length and width of a rectangle, calculates its area and perimeter, and outputs the results.
+20 - Declare a string variable and prompt the user to enter a sentence. Then, output the number of characters, words, and lines in the sentence.
+21 - Write a program that prompts the user to enter three integers and outputs the largest and smallest of the three.
+22 - Declare an integer variable and prompt the user to enter a value for it. Then, use a loop to output the first 10 multiples of the value.
+23 - Write a program that prompts the user to enter two integer values representing the length and width of a rectangle. Then, use a loop to output a pattern of asterisks that represents the rectangle.
+24 - Declare an integer variable and prompt the user to enter a value for it. Then, use a loop to output the Fibonacci sequence up to the given value.
+25 - Write a program that prompts the user to enter a string and outputs the string in reverse order.
+26 - Declare an integer variable and prompt the user to enter a value for it. Then, use recursion to output the factorial of the value.
+27 - Write a program that prompts the user to enter two integer values representing the length and width of a rectangle. Then, use recursion to output a pattern of asterisks that represents the rectangle.
+28 - Declare a constant double variable representing the acceleration due to gravity in meters per second squared. Then, prompt the user to enter a time in seconds and output the distance an object would fall in that time.
+29 - Write a program that prompts the user to enter a sentence and outputs the sentence with all vowels removed.
+30 - Declare an integer variable and prompt the user to enter a value for it. Then, use bitwise operations to output the value of the number with its bits reversed.
