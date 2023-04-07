@@ -14,9 +14,8 @@
 14 - Declare an integer variable and prompt the user to enter a value for it. Then, output whether the value is positive, negative, or zero.
 15 - Write a program that prompts the user to enter a temperature in Celsius and outputs the temperature in Fahrenheit.
 16 - Declare two integer variables and prompt the user to enter values for them. Then, output their sum, difference, product, and quotient.
-17 - Write a program that prompts the user to enter their age and their birth year. Then, output their age in months, weeks, and days.
-18 - Declare a constant double variable representing the speed of light in meters per second. Then, prompt the user to enter a distance in meters and output the time it would take for light to travel that distance.
-19 - Write a program that prompts the user to enter the length and width of a rectangle, calculates its area and perimeter, and outputs the results.
+17 - Write a program that prompts the user to enter a string of text and counts the number of vowels (a, e, i, o, u) in the string. Then, output the total count of vowels in the string.
+18 - Write a program that prompts the user to enter their weight in kilograms and their height in meters. Then, calculate and output their body mass index (BMI) using the formula BMI = weight / (height * height).19 - Write a program that prompts the user to enter the length and width of a rectangle, calculates its area and perimeter, and outputs the results.
 20 - Declare a string variable and prompt the user to enter a sentence. Then, output the number of characters, words, and lines in the sentence.
 21 - Write a program that prompts the user to enter three integers and outputs the largest and smallest of the three.
 22 - Declare an integer variable and prompt the user to enter a value for it. Then, use a loop to output the first 10 multiples of the value.
@@ -25,26 +24,4 @@
 25 - Write a program that prompts the user to enter a string and outputs the string in reverse order.
 26 - Declare an integer variable and prompt the user to enter a value for it. Then, use recursion to output the factorial of the value.
 27 - Write a program that prompts the user to enter two integer values representing the length and width of a rectangle. Then, use recursion to output a pattern of asterisks that represents the rectangle.
-28 - Declare a constant double variable representing the acceleration due to gravity in meters per second squared. Then, prompt the user to enter a time in seconds and output the distance an object would fall in that time.
-29 - Write a program that prompts the user to enter a sentence and outputs the sentence with all vowels removed.
-30 - Declare an integer variable and prompt the user to enter a value for it. Then, use bitwise operations to output the value of the number with its bits reversed.
-31 - Write a program that takes as input two integer variables and swaps their values without using a third variable.
-32 - Write a program that takes as input two integer variables and finds their greatest common divisor (GCD) using Euclid's algorithm.
-33 - Write a program that takes as input a list of integers and returns the mode of the list (the element that appears most frequently).
-34 - Write a program that takes as input a list of integers and returns the index of the first occurrence of the smallest element in the list.
-35 - Write a program that takes as input a list of integers and returns the sum of the squares of all the elements in the list.
-36 - Write a program that takes as input a list of integers and returns the number of elements in the list that are greater than their immediate neighbors.
-37 - Write a program that takes as input a list of integers and returns the product of the elements at even indices in the list.
-38 - Write a program that takes as input a list of integers and returns the sum of the elements at odd indices in the list.
-39 - Write a program that takes as input a list of integers and returns the second smallest element in the list.
-40 - Write a program that takes as input a list of integers and returns the maximum number of consecutive elements in the list that are either increasing or decreasing.
-41 - Write a program that takes as input a list of integers and returns the median of the list.
-42 - Write a program that takes as input a list of integers and returns the k-th smallest element in the list.
-43 - Write a program that takes as input a list of integers and returns the number of distinct elements in the list.
-44 - Write a program that takes as input a list of integers and returns the maximum difference between any two elements in the list.
-45 - Write a program that takes as input a list of integers and returns the second largest element in the list.
-46 - Write a program that takes as input a list of integers and returns the smallest number that cannot be formed by summing any subset of the list.
-47 - Write a program that takes as input a list of integers and returns the sum of the digits of the largest element in the list.
-48 - Write a program that takes as input a list of integers and returns the product of the odd elements in the list.
-49 - Write a program that takes as input a list of integers and returns the sum of the squares of the even elements in the list.
-50 - Write a program that takes as input a list of integers and returns the number of times the most common element appears in the list.
+28 - Write a program that prompts the user to enter a positive integer and outputs all of its factors.

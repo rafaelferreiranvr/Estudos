@@ -1,1 +1,0 @@
-//18 - Declare a constant double variable representing the speed of light in meters per second. Then, prompt the user to enter a distance in meters and output the time it would take for light to travel that distance.
