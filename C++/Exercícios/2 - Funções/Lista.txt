@@ -1,0 +1,30 @@
+1- Write a function that takes two integers as parameters and returns their sum.
+2- Write a function that takes an integer as parameter and returns its absolute value.
+3- Write a function that takes a string as parameter and returns the length of the string.
+4- Write a function that takes a double as parameter and returns its square root.
+5- Write a function that takes an integer array and its size as parameters, and returns the sum of all elements in the array.
+6- Write a function that takes two integer arrays and their sizes as parameters, and returns a new array that is the concatenation of the two arrays.
+7- Write a function that takes an integer as parameter and returns true if the number is prime, and false otherwise.
+8- Write a function that takes a string as parameter and returns true if the string is a palindrome, and false otherwise.
+9- Write a function that takes a double as parameter and returns its rounded value.
+10- Write a function that takes a string as parameter and returns a new string with all the vowels replaced by asterisks.
+11- Write a function that takes a string as input and returns a new string that contains only the vowels from the original string.
+12- Write a function that takes two sorted arrays of integers as input and returns a new sorted array that contains the intersection of the two arrays.
+13- Write a function that takes a string as input and returns true if the string is a valid palindrome, and false otherwise.
+14- Write a function that takes an integer array and its size as input and returns the maximum subarray sum.
+15- Write a function that takes a string as input and returns true if the string can be formed by concatenating words from a given dictionary, and false otherwise.
+16- Write a function that takes an integer n as input and returns the nth Fibonacci number.
+17- Write a function that takes an integer n as input and returns a vector of all the prime numbers less than or equal to n.
+18- Write a function that takes a string as input and returns true if the string is a valid email address, and false otherwise.
+19- Write a function that takes an integer array and its size as input and returns the length of the longest increasing subsequence.
+20- Write a function that takes a string as input and returns the longest palindromic substring of the string.
+21- Write a function that takes an array of integers and its size as input and returns the length of the longest increasing subarray.
+22- Write a function that takes a string as input and returns the longest common subsequence of two other strings.
+23- Write a function that takes a graph represented as an adjacency list and a starting node as input, and returns the shortest path to each node in the graph using Dijkstra's algorithm.
+24- Write a function that takes a string as input and returns a new string that is the reverse of the original string, with all non-alphabetic characters preserved in their original positions.
+25- Write a function that takes a sorted array of integers and its size as input and returns a new sorted array that contains the squares of the elements in the original array.
+26- Write a function that takes a string as input and returns a new string that is the reverse of the original string, but with all the words in the string also reversed.
+27- Write a function that takes a binary tree and a value as input, and returns true if the value is found in the tree, and false otherwise.
+28- Write a function that takes a sorted array of integers and its size as input and returns the indices of two elements that add up to a given target sum. If no such elements exist, the function
+29- Write a function that takes an array of integers and its size as input and returns the number of unique elements in the array.
+30- Write a function that takes a binary tree as input and returns the maximum path sum between any two nodes in the tree.
