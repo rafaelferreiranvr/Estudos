@@ -19,20 +19,29 @@ int main(){
     int* result_array = array_sum(array1, array2, 5);
 
     std::cout << "Array 1: ";
-    for (int i : array1){
-        std::cout << i;
+    for (int i = 0; i < 5; i++){
+        std::cout << array1[i];
+        if (i != 4) {
+            std::cout << ", ";
+        }
     };
     std::cout << std::endl;
     
     std::cout << "Array 2: ";
-    for (int i : array2){
-        std::cout << i;
+    for (int i = 0; i < 5; i++){
+        std::cout << array2[i];
+        if (i != 4) {
+            std::cout << ", ";
+        }
     };
     std::cout << std::endl;
 
     std::cout << "Sum Result Array: ";
     for (int i = 0; i < 5; i++){
         std::cout << result_array[i];
+        if (i != 4) {
+            std::cout << ", ";
+        }
     };
     std::cout << std::endl;
 }

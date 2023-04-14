@@ -1,0 +1,10 @@
+1- Write a program that reads a number from the user and prints it back to the screen.
+2- Write a program that adds two numbers and prints the result.
+3- Write a program that subtracts two numbers and prints the result.
+4- Write a program that multiplies two numbers and prints the result.
+5- Write a program that divides two numbers and prints the result.
+6- Write a program that finds the maximum of two numbers and prints it.
+7- Write a program that finds the minimum of two numbers and prints it.
+8- Write a program that calculates the factorial of a number and prints the result.
+9- Write a program that calculates the sum of the first n natural numbers and prints the result.
+10- Write a program that calculates the sum of a given array of numbers and prints the result.

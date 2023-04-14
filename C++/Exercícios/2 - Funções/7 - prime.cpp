@@ -3,8 +3,8 @@
 #include <iostream>
 bool is_prime(int value){
     int factors = 0;
-    for (int i = 0; i < value; i++){
-        if (value % 1 == 0){
+    for (int i = 1; i <= value; i++){
+        if (value % i == 0){
             factors++;
         }
     }
@@ -21,8 +21,8 @@ int main(){
     std::cin >> var1;
 
     if (is_prime(var1)){
-        std::cout << var1 << "is prime." << std::endl;
+        std::cout << var1 << " is prime." << std::endl;
     } else {
-        std::cout << var1 << "is not prime." << std::endl;
+        std::cout << var1 << " is not prime." << std::endl;
     }
 }
