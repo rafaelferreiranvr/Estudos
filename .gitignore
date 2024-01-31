@@ -24,3 +24,9 @@ C++/x64/Debug/C++.vcxproj.FileListAbsolute.txt
 *.json
 C++/C++.vcxproj.filters
 C++/C++.vcxproj
+*.db
+*.opendb
+*.db-wal
+*.lock
+*.db-shm
+DirectX11/DX11/.vs/DX11/v17/.suo
